@@ -1,0 +1,64 @@
+/_
+git init
+git add --all
+git commit -m ""
+git push -u origin master
+git branch mybranch
+git checkout mybranch //сменить ветку
+git checkout -b lab1 //создать и переключить
+git stash save --keep-index //отменить изменения, не индексировные через add
+//Можно сделать до какого то определенного коммита по хешу
+git reset --hard HEAD hash
+_/
+/*
+
+*/
+nmp init 
+npm install eslint
+npm install eslint-config-airbnb-base
+eslint --init
+npm install axios
+npm install vue
+
+npm i eslint-cli
+npm i eslint --save-dev
+eslint .\
+
+npm i eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue eslint-plugin-nuxt eslint-import-resolver-nuxt --save-dev
+npm i vue --save
+eslint --init
+
+
+npm install vue-cli
+npm i -g @vue/cli-init 
+vue init webpack-simple vue-spa
+
+/* 
+npm install -d //установка пакета только для разработки
+npm install -p //установка пакета только для готового продукта
+npm list --depth=0 //список установленных зависимостей
+npm list -g --depth=0 //список установленных зависимостей глобально
+
+*/
+/_*Eslint
+Статистический анализатор
+npm run eslint -- ./test.js //передать файл еслинту
+npm run eslint -- ./ --fix //форматирование текста
+_/
+
+/_*Prettier
+npm install prettier
+npm run prettier -- --write ./test.js
+_/
+
+
+В скрипты можно писать команды для выполнения
+Посмотреть про шляпы гита
+Посмотреть про баш функции
+
+
+ejfwieo
+
+public int
+public int
+public double
